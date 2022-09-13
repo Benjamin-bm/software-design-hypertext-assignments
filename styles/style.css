@@ -2,11 +2,37 @@ body {
   color: red;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
 h1 {
   color: red;
   font-family: monospace;
 }
-
-#justanoterpara {
-  background-color: aqua;
+ 
+  .image1
+  {
+      width: 25%;
+      position: relative;
+      top: 0;
+      left: 0;
+  }
   
+  .image3
+  {
+      width: 25%;
+      position: absolute;
+      top: 20px;
+      left: 40px;
+    }
+    
+    div.relative 
+    {
+      position: relative;
+      left: 30px;
+      border: 3px solid #73AD21;
+    }
